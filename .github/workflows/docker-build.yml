@@ -12,4 +12,4 @@ jobs:
       - name: Build image
         run: docker build -t ts-sandbox .
       - name: Launch container
-        run: docker run -it cpp-container
+        run: docker run -it cpp-container /bin/bash
